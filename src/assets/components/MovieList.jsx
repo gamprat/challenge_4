@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const MovieList = (props) => {
 
   return (
-    <div className='flex items-center justify-center pl-[68px]'>
+    <div className='flex items-center justify-center'>
     <Link to={'/Detail Page'}>
       <div className="relative w-[200px] h-[300px] m-4 rounded-lg overflow-hidden cursor-pointer">
         <img className='w-[200px] h-[300px] object-center object-cover items-center justify-center rounded-lg hover:scale-110' src={`https://image.tmdb.org/t/p/original/${props.dataMovie.backdrop_path}`}></img>
